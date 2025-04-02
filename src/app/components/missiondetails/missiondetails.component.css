@@ -1,0 +1,79 @@
+
+.mat-toolbar {
+    background-color: #1976d2; 
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .mat-toolbar button {
+    color: white;
+    font-size: 24px;
+  }
+
+  .mission-details-container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .mission-details-container h2 {
+    font-size: 2.5em;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .mission-details-container img {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 8px;
+  }
+  
+  .mission-details-container p {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .mission-details-container .mission-info {
+    margin-bottom: 20px;
+  }
+  
+  .mission-details-container .mission-info strong {
+    font-weight: bold;
+    color: #1976d2;
+  }
+  
+  /* Styling for links (buttons) */
+  .mission-details-container .links {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+  }
+  
+  .mission-details-container .links a {
+    text-decoration: none;
+    background-color: #1976d2;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 1.1em;
+    text-align: center;
+    width: 120px;
+    transition: background-color 0.3s;
+  }
+  
+  .mission-details-container .links a:hover {
+    background-color: #1565c0;
+  }
+  
+  .mission-details-container .links a:active {
+    background-color: #0d47a1;
+  }
+  

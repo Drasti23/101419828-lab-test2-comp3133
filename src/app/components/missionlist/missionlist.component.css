@@ -1,0 +1,64 @@
+
+.mission-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+    gap: 20px;
+    margin: 20px;
+    padding: 0 10px;
+  }
+  
+
+  .mission-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #f9f9f9;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .mission-card:hover {
+    transform: translateY(-5px); 
+  }
+  
+  mat-card-header {
+    background-color: #89929d; 
+    color: white;
+    text-align: center;
+  }
+  
+  mat-card-title {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  mat-card-subtitle {
+    font-size: 1.2em;
+  }
+  
+ 
+  mat-card-content {
+    padding: 15px;
+    color: #333;
+    font-size: 1em;
+  }
+  
+  
+  mat-card-actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+  }
+  
+  mat-card-actions button {
+    font-weight: bold;
+  }
+  
+  button {
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #1976d2; 
+    color: white;
+  }
+  

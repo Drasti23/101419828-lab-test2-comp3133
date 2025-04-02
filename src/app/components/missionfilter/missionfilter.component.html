@@ -1,0 +1,26 @@
+<mat-form-field appearance="outline">
+    <mat-label>Filter by Launch Year</mat-label>
+    <input matInput [(ngModel)]="launchYear" placeholder="e.g. 2020">
+  </mat-form-field>
+  
+  <mat-form-field appearance="outline">
+    <mat-label>Launch Status</mat-label>
+    <mat-select [(ngModel)]="launchStatus">
+      <mat-option value="">All</mat-option>
+      <mat-option value="successful">Successful</mat-option>
+      <mat-option value="failed">Failed</mat-option>
+    </mat-select>
+  </mat-form-field>
+  
+  <mat-form-field appearance="outline">
+    <mat-label>Landing Status</mat-label>
+    <mat-select [(ngModel)]="landingStatus">
+      <mat-option value="">All</mat-option>
+      <mat-option value="successful">Successful</mat-option>
+      <mat-option value="failed">Failed</mat-option>
+    </mat-select>
+  </mat-form-field>
+  
+  <button mat-raised-button color="primary" (click)="filterByYear()">Filter</button>
+  <button mat-raised-button color="accent" (click)="resetFilters()">Reset Filters</button>
+  

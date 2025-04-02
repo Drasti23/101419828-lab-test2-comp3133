@@ -1,0 +1,24 @@
+<mat-toolbar color="primary">
+    <button mat-icon-button [routerLink]="'/'">
+      <mat-icon>arrow_back</mat-icon>
+    </button>
+    <span>Mission Details</span>
+  </mat-toolbar>
+  
+  <div class="mission-details-container">
+    <h2>{{ mission.mission_name }} ({{ mission.launch_year }})</h2>
+    <img [src]="mission.links?.mission_patch_small" alt="patch" />
+    
+    <div class="mission-info">
+      <p><strong>Flight Number:</strong> {{ mission.flight_number }}</p>
+      <p><strong>Rocket:</strong> {{ mission.rocket?.rocket_name }} - {{ mission.rocket?.rocket_type }}</p>
+      <p><strong>Details:</strong> {{ mission.details || 'No details available.' }}</p>
+    </div>
+    
+    <div class="links">
+      <a [href]="mission.links?.wikipedia" target="_blank">Wikipedia</a>
+      <a [href]="mission.links?.article_link" target="_blank">Article</a>
+      <a [href]="mission.links?.video_link" target="_blank">Video</a>
+    </div>
+  </div>
+  

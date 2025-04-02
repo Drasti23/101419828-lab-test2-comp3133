@@ -1,0 +1,30 @@
+.mat-form-field {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+button {
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #1976d2;
+    color: white;
+}
+
+button[color='accent'] {
+    background-color: #e53935;
+    color: white;
+}
+
+button[color='accent']:hover {
+    background-color: #d32f2f;
+}
+
+mat-form-field, button {
+    margin-bottom: 20px;
+}
+
+.mat-select {
+    width: 100%;
+}
