@@ -1,59 +1,69 @@
-# 101419828LabTest2Comp3133
+SpaceX Launches - Angular Application
+This project is a SpaceX Launches web application developed using Angular. It fetches and displays SpaceX mission data and allows users to filter the missions based on launch year, launch success, and landing success. The app provides detailed information about each mission with external links to Wikipedia, articles, and videos.
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.2.
+Features
+Mission List: Displays a list of SpaceX missions with a brief overview.
 
-## Development server
+Mission Filters: Filters to search missions by launch year, launch success, and landing success.
 
-To start a local development server, run:
+Mission Details: A detailed page with information about each mission, including the flight number, rocket type, and more.
 
-```bash
+Responsive Design: The application is responsive and works across various devices (desktop, tablet, mobile).
+
+Technologies Used
+Angular: Frontend framework for building the application.
+
+Angular Material: UI components like toolbar, cards, buttons, and more.
+
+Vercel: Deployed on Vercel for easy hosting.
+
+Installation
+Follow these steps to set up the project locally.
+
+1. Clone the repository
+bash
+Copy
+git clone https://github.com/yourusername/your-repo-name.git
+2. Navigate to the project directory
+bash
+Copy
+cd your-repo-name
+3. Install dependencies
+bash
+Copy
+npm install
+4. Build the project for production
+bash
+Copy
+ng build --prod
+5. Serve the app locally
+bash
+Copy
 ng serve
-```
+Visit http://localhost:4200 in your browser to see the app.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Usage
+Once the application is running, users can:
 
-## Code scaffolding
+View SpaceX missions on the main page.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Filter missions by launch year, launch status, and landing status using the filter panel.
 
-```bash
-ng generate component component-name
-```
+Click on any mission to view its detailed information (flight number, rocket, mission details, etc.).
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+Navigate back to the main mission list page from the details page using the Back button.
 
-```bash
-ng generate --help
-```
+Screenshots
+Home Page - Mission List
 
-## Building
+Mission Details Page
 
-To build the project run:
+Deployment
+The application is deployed and live on Vercel.
 
-```bash
-ng build
-```
+Contributing
+Feel free to open an issue or submit a pull request for any improvements or fixes.
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
